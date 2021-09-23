@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Fy.pet</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lykmapipo/themify-icons@0.1.2/css/themify-icons.css">
+	<!-- CSS -->
+	<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+	<link rel="stylesheet" href="style.css">
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/9d3341a112.js" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+	<header>
+		<h2><span class="brand-logo">Fy.pet</span> <label for="menu-toggle"><span class="ti-menu"></span></label></h2>
+		
+
+		<input type="checkbox" id="menu-toggle" />
+		<div class="main-menu">
+			<div class="menu-responsive">
+				<label for="menu-toggle">Fechar</label>
+				<form action="" class="search">
+					<input type="search" placeholder="busca" />
+					<button><span class="span ti-search"></span></button>
+				</form>
+			</div>
+
+			<a href="produto.html" class="">Produtos</a>
+			<a href="index.html">Inicio</a>
+			<a href="">Contato</a>
+		</div>
+	</header>
+
+	<div class="carousel" data-flickity='{ "wrapAround": true }'>
+		<div class="carousel-item">
+			<div class="carousel-info">
+				<h1>Coleiras Personalizadas</h1>
+				<p>Coleiras personalizdas perfeitas para o seu pet, pode comprar das disponiveis no estoque ou encomendar a sua</p>
+				<a href="produto.html">Clique para conhecer os produtos</a>
+			</div>
+			<div class="carousel-image">
+				<img src="img/coleira1.png" alt="" />
+			</div>
+		</div>
+		<div class="carousel-item">
+			<div class="carousel-info">
+				<h1>Ração</h1>
+				<p>As melhores rações para todos os tipos de pets que você pode querer estão aqui</p>
+				<a href="produto.html">Clique para conhecer os produtos</a>
+			</div>
+			<div class="carousel-image">
+				<img src="img/banner3.jpg" alt="" />
+			</div>
+		</div>
+		<div class="carousel-item">
+			<div class="carousel-info">
+				<h1>Roupas Personalizadas</h1>
+				<p>Você quer sair com seu pet mas não tem o que vestir? Aqui não é problema temos vários modelos para todos</p>
+				<a href="produto.html">Clique para conhecer os produtos</a>
+			</div>
+			<div class="carousel-image">
+				<img src="img/banner1.png" alt="" />
+			</div>
+		</div>
+	</div>
+
+
+	<section class="services py-5 text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-10 mx-auto col-md-6 col-lg-4 my-3">
+                    <span class="service-icon">
+                        <i class="fas fa-globe fa-2x"></i>
+                    </span>
+                    <h5 class="font-weight-bold text-uppercase">
+                        Entregas para todo Brasil
+                    </h5>
+                    <p class="texte-capitalize">enviamos nossos produtos para todo o Brasil, olhe o preço do frete ao finalizar a compra</p>
+                </div>
+                <div class="col-10 mx-auto col-md-6 col-lg-5 my-3">
+                    <span class="service-icon">
+                        <i class="fas fa-stamp fa-2x"></i>
+                    </span>
+                    <h5 class="font-weight-bold text-uppercase">
+                        Todos os Direitos reservados
+                    </h5>
+                    <p class="texte-capitalize"></p>
+                </div>
+                <div class="col-10 mx-auto col-md-6 col-lg-4 my-3">
+                    <span class="service-icon">
+                        <i class="fas fa-file-invoice-dollar fa-2x"></i>
+                    </span>
+                    <h5 class="font-weight-bold text-uppercase">
+                        30 dias para devolução do produto
+                    </h5>
+                    <p class="texte-capitalize">Na descrição do produto terá a condição de retorno do produto</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+	
+	
+	<div class="card-brand">
+		<div class="single-card" style="background-image: url('img/fy1.jpg');"></div>
+		<div class="single-card" style="background-image: url('img/fy2.jpg');"></div>
+		<div class="single-card" style="background-image: url('img/fy3.jpg');"></div>
+	</div>
+
+<section class="contact py-5">
+	<div class="contact py-5">
+		<h2 class="section-heading text-center">Contate-nos</h2>
+		<form class="cool-lg-6 offset-lg-1">
+			<div class="form-group">
+				<label for="email">Email</label>
+				<input type="email"id="email"class="form-control"
+				aria-describedby="emailHelp"placeholder="Email">
+			</div>
+			<div class="form-group">
+				<label for="name">Name</label>
+				<input type="text"id="name"class="form-control"placeholder="Name">
+			</div>
+			<div class="form-group">
+				<label for="message">Message</label>
+				<textarea class="form-control"id="message"placegolder="Message"
+				row="5"></textarea>
+			</div>
+			<div class="form-group form-check">
+				<input type="checkbox"class="form-check-input"id="check">
+				<label class="form-check-label"for="check">
+					Assine para mais noticias
+				</label>
+			</div>
+			<div class="text-center">
+				<button class="btn btn-lg btn-color cont-btn">
+					Enviar
+				</button>
+			</div>
+		</form>
+	</div>
+
+
+</section>
+
+	<footer>
+		<div class="brand">
+			<h1>Fy.pet</h1>
+			<p>Todos os direitos reservados</p>
+		</div>
+		<div class="footer-menu">
+			<div class="menu-card">
+				<h3>Links Rapidos</h3>
+				<a href="index.html">Inicio</a>
+				<a href="produto.html">Produtos</a>
+				<a href="">Contato</a>
+			</div>
+	</footer>
+
+	<!-- JavaScript -->
+	<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/easytimer@1.1.1/src/easytimer.min.js"></script>
+
+	<script>
+		var timer = new Timer();
+		timer.start({countdown: true, startValues: {seconds: 1000}});
+			document.querySelector('.values').innerHTML = timer.getTimeValues().toString();
+		timer.addEventListener('secondsUpdated', function (e) {
+		    document.querySelector('.values').innerHTML = timer.getTimeValues().toString();
+		});
+	</script>
+</body>
+</html>
