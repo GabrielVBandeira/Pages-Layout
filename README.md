@@ -1,2 +1,2 @@
 # Pages-Layout
-Soms pages layout in HTML and CSS
+Some pages layout in HTML and CSS
